@@ -2,9 +2,10 @@ body{
      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
      background-color: black;
      color: white;
-     width: 100vw;
 }
-.logo{
+
+@media (min-width:699px){
+     .logo{
      width: 50px;
      /* text-align: center; */
      margin: 0 auto;
@@ -117,4 +118,243 @@ button:hover{
 }
 #poster{
      width: 300px;
+}
+
+}
+@media (max-width:500px){
+     
+     .logo{
+     width: 50px;
+     /* text-align: center; */
+     margin: 0 auto;
+}
+.header{
+     display: flex;
+     margin: 5px auto;
+}
+.searchbox{
+
+     text-align: center;
+}
+.title,.text{
+     margin: 0px 10px 5px 10px;
+}
+.gray{
+     color: gray;
+}
+input{
+     background-color: #242424;
+     width: 500px;
+     margin-top: 10px;
+     margin-right: 0px;
+     padding: 10px;
+     border: none;
+     border-radius: 12px 0 0 12px;
+     color: white;
+     outline: none;
+}
+input:hover{
+     background-color: #303030;
+     outline: none;
+}
+.mb{
+     margin-bottom: 5px;
+}
+button{
+     margin-top: 10px;
+     margin-right: 0px;
+     padding: 10px;
+     border-radius: 0 12px 12px 0;
+     background-color: #960303;
+     color: white;
+     border: none;
+}
+button:hover{
+     background-color: red;
+     cursor: pointer;
+}
+.container{
+     display: flex;
+     flex-direction: row;
+     margin: 20px auto;
+     gap: 10px;
+     font-size:x-small;
+}
+.hidden{
+     display: none;
+}
+.movLogo{
+     border-radius: 14px;
+     margin: 10px auto;
+     width: 200px;
+     object-fit: cover;
+}
+.errorimg{
+     width: 150px;
+     margin-top: 20px;
+}
+.error{
+     margin-top: 20px;
+     text-align: center;
+}
+.errormsg{
+     color: red;
+     font-weight: 500;
+     font-size: 24px;
+     margin-top: 2px;
+     font-style: italic;
+}
+#suggestion{
+     position: absolute;
+     top: 15px;
+     left: 5px;
+     padding: 3px 15px ;
+     margin-top: 2px;
+     border-radius: 14px;
+     font-style: italic;
+}
+.above8{
+     background-color: #1f7201;
+     color: white;
+}
+.above7{
+     background-color: #c6c900;
+}
+.above6{
+     background-color:rgb(102, 0, 44);
+}
+.above5{
+     background-color:#5d4c01;
+}
+.bad{
+     background-color: rgb(255, 0, 0);
+}
+
+.imgBox{
+     display: flex;
+     position: relative;
+     flex-wrap: wrap;
+}
+.mt{
+     margin-top: 2px;
+}
+
+}
+@media (min-width:499.99px) and (max-width:698.99px){
+     .logo{
+     width: 50px;
+     /* text-align: center; */
+     margin: 0 auto;
+}
+.header{
+     display: flex;
+     margin: 5px auto;
+}
+.searchbox{
+
+     text-align: center;
+}
+.title,.text{
+     margin: 0px 10px 5px 10px;
+}
+.gray{
+     color: gray;
+}
+input{
+     background-color: #242424;
+     width: 500px;
+     margin-top: 10px;
+     margin-right: 0px;
+     padding: 10px;
+     border: none;
+     border-radius: 12px 0 0 12px;
+     color: white;
+     outline: none;
+}
+input:hover{
+     background-color: #303030;
+     outline: none;
+}
+.mb{
+     margin-bottom: 5px;
+}
+button{
+     margin-top: 10px;
+     margin-right: 0px;
+     padding: 10px;
+     border-radius: 0 12px 12px 0;
+     background-color: #960303;
+     color: white;
+     border: none;
+}
+button:hover{
+     background-color: red;
+     cursor: pointer;
+}
+.container{
+     display: flex;
+     flex-direction: row;
+     margin: 20px auto;
+     gap: 10px;
+     font-size:small;
+}
+.hidden{
+     display: none;
+}
+.movLogo{
+     border-radius: 14px;
+     margin: 10px auto;
+     width: 200px;
+     object-fit: cover;
+}
+.errorimg{
+     width: 150px;
+     margin-top: 20px;
+}
+.error{
+     margin-top: 20px;
+     text-align: center;
+}
+.errormsg{
+     color: red;
+     font-weight: 500;
+     font-size: 24px;
+     margin-top: 2px;
+     font-style: italic;
+}
+#suggestion{
+     position: absolute;
+     top: 15px;
+     left: 5px;
+     padding: 3px 15px ;
+     margin-top: 2px;
+     border-radius: 14px;
+     font-style: italic;
+}
+.above8{
+     background-color: #1f7201;
+     color: white;
+}
+.above7{
+     background-color: #c6c900;
+}
+.above6{
+     background-color:rgb(102, 0, 44);
+}
+.above5{
+     background-color:#5d4c01;
+}
+.bad{
+     background-color: rgb(255, 0, 0);
+}
+
+.imgBox{
+     display: flex;
+     position: relative;
+     flex-wrap: wrap;
+}
+.mt{
+     margin-top: 2px;
+}
+
 }
