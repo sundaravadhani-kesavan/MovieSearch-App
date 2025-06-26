@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="searchbox">
+
+     <img src="Netflix_Symbol_PMS.png" class="logo">
+     <h2 class="title">Search Unlimited movies, TV shows and more</h2>
+     <p class="text">Ready to watch? Enter your email to create or restart your membership.</p>
+     <div class="header">
+          <input type="text" placeholder="Search movie here..." id="movSearch" >
+          <button onclick="search()">Search Movie</button>
+     </div>
+     </div> 
+     <div class="Containerbox">
+          <div class="container" id="container">
+          <div class="content" >
+          <h1 id="title" class="mb mt">The Avengers</h1>
+          <p class="gray mb" id="genre">Action, drama</pc>
+          <p id="desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad quas animi reprehenderit minus numquam consequuntur!</p>
+          <p>Actors:<span class="text gray" id="act">Kumar varun</span></p>
+          <p>Directors:<span class="text gray" id="dir">Kumar varun</span></p>
+          <p>Awards:<span class="text gray" id="awards">Kumar varun</span></p>
+          <p>Box office collection:<span class="text gray" id="collection">Kumar varun</span></p>
+          <p>Languages:<span class="text gray" id="lang">Kumar varun</span></p>
+          <p>IMDB ratings:<span class="text gray" id="ratings">Kumar varun</span></p>
+          </div>
+          <div class="imgBox">
+          <img src="https://m.media-amazon.com/images/M/MV5BNWMwODYyMjQtMTczMi00NTQ1LWFkYjItMGJhMWRkY2E3NDAyXkEyXkFqcGc@._V1_SX300.jpg" class="movLogo" id="poster">
+          <p id="suggestion">Must Watch</p>
+          </div>
+     </div>
+     </div>
+     <div class="error" id="error">
+          <img src="https://png.pngtree.com/png-vector/20231116/ourmid/pngtree-3d-small-people---oops-little-png-image_10533728.png" class="errorimg">
+          <h1 class="errormsg" id="errormsg"></h1>
+     </div>
+     
+     <script src="app.js"></script>
+</body>
+</html>
