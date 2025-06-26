@@ -90,7 +90,7 @@ button:hover{
 .movLogo{
      border-radius: 14px;
      width: 200px;
-     height: 320px;
+     height: 300px;
      object-fit: cover;
 }
 .errorimg{
@@ -104,7 +104,7 @@ button:hover{
 .errormsg{
      color: red;
      font-weight: 500;
-     font-size: 24px;
+     font-size: 20px;
      margin-top: 2px;
      font-style: italic;
 }
