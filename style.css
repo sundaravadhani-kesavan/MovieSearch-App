@@ -2,27 +2,37 @@ body{
      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
      background-color: black;
      color: white;
+     
 }
 .footer{
      color: rgb(124, 124, 124);
-     font-size: 15px;
+     font-size: 12px;
      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-     position: absolute;
+     position: fixed;
      text-align: center;
-     bottom: 10px;
+     bottom: 0px;
      left: 50%;
      transform: translate(-50%,-50%);
 }
 .footer:hover{
-     font-size: 16px;
+     font-size: 14px;
      cursor: pointer;
 }
-@media (min-width:699px){
-     .logo{
-     width: 50px;
+.logo{
+     width: 200px;
      /* text-align: center; */
      margin: 0 auto;
+     object-fit: cover;
+     object-position: center;
 }
+.title{
+     margin: 0px 10px 5px 10px;
+}
+.text{
+     margin-top: 15px;
+}
+@media (min-width:699px){
+     
 .header{
      display: flex;
      margin: 5px auto;
@@ -32,9 +42,6 @@ body{
      flex-direction: column;
      justify-content: center;
      align-items: center;
-}
-.title,.text{
-     margin: 0px 10px 5px 10px;
 }
 .gray{
      color: gray;
@@ -135,11 +142,6 @@ button:hover{
 
 }
 @media (max-width:500px){     
-     .logo{
-     width: 50px;
-     /* text-align: center; */
-     margin: 0 auto;
-}
 .header{
      display: flex;
      margin: 5px auto;
@@ -147,9 +149,6 @@ button:hover{
 .searchbox{
 
      text-align: center;
-}
-.title,.text{
-     margin: 0px 10px 5px 10px;
 }
 .gray{
      color: gray;
@@ -203,7 +202,7 @@ button:hover{
      object-fit: cover;
 }
 .errorimg{
-     width: 150px;
+     width: 100px;
      margin-top: 20px;
 }
 .error{
@@ -213,7 +212,7 @@ button:hover{
 .errormsg{
      color: red;
      font-weight: 500;
-     font-size: 24px;
+     font-size: 14px;
      margin-top: 2px;
      font-style: italic;
 }
@@ -253,20 +252,12 @@ button:hover{
 
 }
 @media (min-width:499.99px) and (max-width:698.99px){
-     .logo{
-     width: 50px;
-     /* text-align: center; */
-     margin: 0 auto;
-}
 .header{
      display: flex;
      margin: 5px auto;
 }
 .searchbox{
      text-align: center;
-}
-.title,.text{
-     margin: 0px 10px 5px 10px;
 }
 .gray{
      color: gray;
@@ -320,7 +311,7 @@ button:hover{
      object-fit: cover;
 }
 .errorimg{
-     width: 150px;
+     width: 100px;
      margin-top: 20px;
 }
 .error{
@@ -330,7 +321,7 @@ button:hover{
 .errormsg{
      color: red;
      font-weight: 500;
-     font-size: 24px;
+     font-size: 20px;
      margin-top: 2px;
      font-style: italic;
 }
