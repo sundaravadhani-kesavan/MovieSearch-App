@@ -82,12 +82,16 @@ button:hover{
      width: 700px;
      margin: 20px auto;
      gap: 10px;
+     font-size:small;
 }
 .hidden{
      display: none;
 }
 .movLogo{
      border-radius: 14px;
+     width: 200px;
+     height: 320px;
+     object-fit: cover;
 }
 .errorimg{
      width: 150px;
@@ -147,7 +151,6 @@ button:hover{
      margin: 5px auto;
 }
 .searchbox{
-
      text-align: center;
 }
 .gray{
