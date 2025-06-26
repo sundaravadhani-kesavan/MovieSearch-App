@@ -94,20 +94,20 @@ button:hover{
      font-style: italic;
 }
 .above8{
-     background-color: #1f7201;
+     background-color: #165100;
      color: white;
 }
 .above7{
-     background-color: #c6c900;
+     background-color: #585900;
 }
 .above6{
-     background-color:rgb(102, 0, 44);
+     background-color:rgb(69, 0, 30);
 }
 .above5{
-     background-color:#5d4c01;
+     background-color:#413500;
 }
 .bad{
-     background-color: rgb(255, 0, 0);
+     background-color: rgb(102, 0, 0);
 }
 
 .imgBox{
@@ -121,8 +121,7 @@ button:hover{
 }
 
 }
-@media (max-width:500px){
-     
+@media (max-width:500px){     
      .logo{
      width: 50px;
      /* text-align: center; */
@@ -187,6 +186,7 @@ button:hover{
      border-radius: 14px;
      margin: 10px auto;
      width: 200px;
+     height: 250px;
      object-fit: cover;
 }
 .errorimg{
@@ -214,22 +214,21 @@ button:hover{
      font-style: italic;
 }
 .above8{
-     background-color: #1f7201;
+     background-color: #165100;
      color: white;
 }
 .above7{
-     background-color: #c6c900;
+     background-color: #585900;
 }
 .above6{
-     background-color:rgb(102, 0, 44);
+     background-color:rgb(69, 0, 30);
 }
 .above5{
-     background-color:#5d4c01;
+     background-color:#413500;
 }
 .bad{
-     background-color: rgb(255, 0, 0);
+     background-color: rgb(102, 0, 0);
 }
-
 .imgBox{
      display: flex;
      position: relative;
@@ -251,7 +250,6 @@ button:hover{
      margin: 5px auto;
 }
 .searchbox{
-
      text-align: center;
 }
 .title,.text{
@@ -305,6 +303,7 @@ button:hover{
      border-radius: 14px;
      margin: 10px auto;
      width: 200px;
+     height: 300px;
      object-fit: cover;
 }
 .errorimg{
@@ -332,20 +331,20 @@ button:hover{
      font-style: italic;
 }
 .above8{
-     background-color: #1f7201;
+     background-color: #165100;
      color: white;
 }
 .above7{
-     background-color: #c6c900;
+     background-color: #585900;
 }
 .above6{
-     background-color:rgb(102, 0, 44);
+     background-color:rgb(69, 0, 30);
 }
 .above5{
-     background-color:#5d4c01;
+     background-color:#413500;
 }
 .bad{
-     background-color: rgb(255, 0, 0);
+     background-color: rgb(102, 0, 0);
 }
 
 .imgBox{

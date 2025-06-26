@@ -28,6 +28,7 @@ function search(){
      return data.json()
 }).then((data)=>{
      if(data.Error==="Movie not found!"){
+          container.classList.add("hidden")
           error.classList.remove("hidden")
           errormsg.innerText=`${movieName.value} this movie is not found?! Please Check Again!! `
      }
