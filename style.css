@@ -140,10 +140,6 @@ button:hover{
 .mt{
      margin-top: 2px;
 }
-#poster{
-     width: 300px;
-}
-
 }
 @media (max-width:500px){     
 .header{
