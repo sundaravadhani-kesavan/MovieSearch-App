@@ -3,7 +3,20 @@ body{
      background-color: black;
      color: white;
 }
-
+.footer{
+     color: rgb(124, 124, 124);
+     font-size: 15px;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     position: absolute;
+     text-align: center;
+     bottom: 10px;
+     left: 50%;
+     transform: translate(-50%,-50%);
+}
+.footer:hover{
+     font-size: 16px;
+     cursor: pointer;
+}
 @media (min-width:699px){
      .logo{
      width: 50px;
